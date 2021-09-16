@@ -1,19 +1,99 @@
 <!DOCTYPE html>
-
-
 <html lang="en">
-
 <head>
-
+    <title>Google</title>
+    <meta charset="UTF-8">
+    <meta name="Google Homepage" content="Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking for">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <!-- <meta name="robots" content="noindex, nofollow"> -->
+    <link rel="FaviconIcon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous"
+    />
+       <script type="text/javascript" src="./js/google.com.js"></script>
+    <style>
+    </style>
 </head>
-    
 <body>
-    <h1>Hello World!</h1>
+    <div  id="container">
+        <header>
+            <menu>
+                <div id="menu-left">
+                    <a id="menu-left-about" href="#">About</a>
+                    <a id="menu-left-store" href="#">Store</a>
+                </div>
+                <div id="menu-center"></div>    
+                <div id="menu-right">
+                    <a id="menu-right-mail" href="#">Gmail</a>
+                    <a id ="menu-right-images" href="#">Images</a>
+                    <span class="material-icons"><a id="menu-right-apps" href="#" style="text-decoration: none;">apps</a></span>
+                    <div id="btn-blue">
+                        <a id="menu-right-sign-in" href="#" style="text-decoration: none;">Sign In</a>
+                    </div>
+                </div>
+            </menu>
+        </header>
+        <section>
+            <figure>
+                <img src="./images/logo.png" alt="Google">
+            </figure>
+            <div id="search-bar">
+                <div id="search-bar-left"></div>
+                <div id="search-bar-center">
+                    <div id="rounded-rectangle">
+                            <form id="form" action="#">
+                        <div id="search-bar-icons">
+                            <span class="material-icons">
+                                <a href="#">
+                                    search
+                                </a>
+                            </span>
+                            <div id="search-box">
+                                <input name="google-search" id="google-search" type="text" placeholder=""/>
+                            </div>
+                            <div id="keyboard-voice">
+                                <a href="#"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="search-bar-right"></div>
+            </div>
+            <center>
+                <div id="center-left">
+                                <input type="submit" value="Google Search"/>
+                            </form>
+                </div>
+                <div id="center-right">
+                            <form id="form-feeling" action="#">
+                                <input type="submit" value="I'm Feeling Lucky"/>
+                            </form>
+                </div>
+            </center>
+            <!-- ******************** Navigation ******************** -->
+            <!-- **************************************************** -->
+        </section>
+        <footer>
+            <span id="menu-footer">
+                <code id="menu-footer-left">
+                    <a id="advertising" class="footer-link">Advertising</a>
+                    <a id="business" class="footer-link">Business</a>
+                    <a id="how-search-works" class="footer-link">How Search works</a> 
+                </code>
+                <code id="menu-footer-center"></code>
+                <code id="menu-footer-right">
+                    <a id="privacy" class="footer-link">Privacy</a>
+                    <a id="terms" class="footer-link">Terms</a>
+                    <a id="settings" class="footer-link">Settings</a>
+                </code>
+            </span>
+        </footer>
+    </div>
 </body>
-
-<footer>
-    <hr>
-    <code>Copyright (C) 2021 Esteban Herrera</code>
-</footer>
-
 </html>

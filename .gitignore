@@ -5,10 +5,14 @@ node_modules/
 logs
 *.log
 
+# Ignore the src and pre-build directories
+/build
+/src
+
 # Ignore the build directory
 /dist
 
-# The file containing environment variables 
+# The file containing environment variables
 .env
 
 # Ignore IDE specific files
@@ -16,5 +20,16 @@ logs
 .vscode/
 *.sw*
 
-# Ignore the workspace file
+# The workspace file
 google-homepage.code-workspace
+
+# The Prettier config file
+.prettierrc
+
+# Ignore Node specific files
+package.json
+package-lock.json
+
+# The ESLint config files
+.eslintrc.json
+.eslintignore
