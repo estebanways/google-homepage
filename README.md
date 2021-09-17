@@ -10,4 +10,4 @@ In the beginning, I felt unconfident about web technologies. However, I was able
 
 This project helped me improve my skills in a variety of **programming languages** (HTML, CSS, Markdown) and **technologies** (Responsive Web Design, Browsers Developer Tools, Git and GitHub), among **others** (JavaScript, SSH, Graphic Design.)
 
-I hope you like my **Google homepage** since it is one of my greatest achievements. Thank you for visiting my profile.
+I hope you like my **Google homepage** since it is one of my greatest accomplishments. Thank you for visiting my profile.
